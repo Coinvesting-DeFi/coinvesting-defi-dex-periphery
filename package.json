@@ -1,0 +1,49 @@
+{
+  "name": "@coinvestingdefi/dex-periphery",
+  "version": "1.0.0",
+  "description": "Peripheral smart contracts for interacting with Coinvesting DeFi Dex.",
+  "author": "Coinvesting DeFi",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coinvesting-DeFi/coinvesting-defi-dex-periphery.git"
+  },
+  "keywords": [
+    "Coinvesting",
+    "contracts",
+    "DeFi",
+    "Dex",
+    "Ethereum",
+    "periphery",
+    "smart",
+    "Solidity"
+  ],  
+  "bugs": {
+    "url": "https://github.com/Coinvesting-DeFi/coinvesting-defi-dex-periphery/issues"
+  },
+  "homepage": "https://github.com/Coinvesting-DeFi/coinvesting-defi-dex-periphery#readme",
+  "scripts": {
+    "test": "mocha",
+    "prepublishOnly": "yarn test"
+  },
+  "files": [
+    "build",
+    "contracts"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@coinvestingdefi/dex-core": "^1.0.0",
+    "@truffle/hdwallet-provider": "1.2.2",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.3.4",
+    "dotenv": "8.2.0",
+    "ethereum-waffle": "^2.4.1",
+    "ethereumjs-util": "^6.2.0",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^3.7.3"
+  }  
+}
