@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/@coinvestingdefi/dex-periphery?style=flat-square)](https://npmjs.com/package/@coinvestingdefi/dex-periphery)
+
 # Coinvesting DeFi
 
 ## coinvesting-defi-dex-periphery
